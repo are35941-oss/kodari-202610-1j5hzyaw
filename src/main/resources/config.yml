@@ -1,0 +1,29 @@
+shop:
+  DIAMOND:
+    name: '&bDiamond'
+    buy: 100.0
+    sell: 40.0
+    amount: 1
+  IRON_INGOT:
+    name: '&fIron Ingot'
+    buy: 15.0
+    sell: 5.0
+    amount: 1
+  GOLD_INGOT:
+    name: '&6Gold Ingot'
+    buy: 25.0
+    sell: 8.0
+    amount: 1
+  EMERALD:
+    name: '&aEmerald'
+    buy: 75.0
+    sell: 25.0
+    amount: 1
+  OAK_LOG:
+    name: '&6Oak Log'
+    buy: 8.0
+    sell: 2.0
+    amount: 1
+auction:
+  duration-hours: 168
+  max-listings-per-player: 10

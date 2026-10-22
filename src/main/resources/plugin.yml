@@ -1,0 +1,29 @@
+name: LShop
+version: 1.0.0
+main: com.kodari.lshop.LShopPlugin
+api-version: '1.20'
+softdepend: [Vault]
+commands:
+  lshop:
+    description: Open the configurable player shop.
+    usage: /lshop [reload]
+    aliases: [shop]
+  lsell:
+    description: Sell configured items from your inventory.
+    usage: /lsell [hand|all]
+    aliases: [sell]
+  lah:
+    description: Open and manage the auction house.
+    usage: /lah [sell|buy|cancel|my|expired|reload|help]
+    aliases: [ah, auction]
+permissions:
+  lshop.use:
+    default: true
+  lsell.use:
+    default: true
+  lah.use:
+    default: true
+  lshop.admin:
+    default: op
+  lah.admin:
+    default: op
